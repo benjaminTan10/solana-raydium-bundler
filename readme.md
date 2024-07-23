@@ -36,8 +36,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Clone the repository and navigate into the project directory:
 
 ```bash
-git clone https://github.com/your-username/your-rust-project.git
-cd your-rust-project
+git clone https://github.com/taimurey/raydium-bundler.git
+cd raydium-bundler
 ```
 
 ## Cargo Commands
