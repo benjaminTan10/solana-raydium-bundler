@@ -1,0 +1,11 @@
+{
+  "RPC-URL": "https://api.mainnet-beta.solana.com",
+  "BLOCK-ENGINE-URL": "https://ny.mainnet.block-engine.jito.wtf",
+  "TOKEN-MINT": "",
+  "MARKET-ADDRESS": "",
+  "POOL-ID": "",
+  "DEPLOYER-PRIVATE-KEY": "",
+  "BUYER-PRIVATE-KEY": "",
+  "LUT-KEY": "",
+  "VOLUME-LUT-KEY": ""
+}
