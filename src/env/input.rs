@@ -95,3 +95,26 @@ pub async fn bundle_priority_tip() -> u64 {
     }
     amount
 }
+
+pub async fn sol_amount(identifier: &str) -> u64 {
+    let amount: u64;
+
+    loop {
+        let t = Input::new(identifier).placeholder("0.01").prompt("Input: ");
+
+        let string = t.run().expect("error running input");
+
+        match string.parse::<f64>() {
+            Ok(val) => {
+                amount = sol_to_lamports(val);
+                break;
+            }
+            Err(_) => {
+                println!("Invalid input. Please enter a number.");
+                continue;
+            }
+        }
+    }
+
+    amount
+}
