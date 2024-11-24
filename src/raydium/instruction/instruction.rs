@@ -1724,7 +1724,6 @@ where
     }
 }
 
-#[cfg_attr(feature = "client", derive(Debug))]
 #[repr(C)]
 #[derive(Clone, Copy, Default, PartialEq)]
 pub struct AmmInfo {
