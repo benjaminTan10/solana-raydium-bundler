@@ -1,5 +1,8 @@
 # Bundler Guide
 
+## Overview
+This is raydium bundler using jito
+
 ## Installation
 
 ### Install Protocol Buffers (protobuf)
@@ -29,35 +32,6 @@ If you haven't installed Rust yet, you can do so using `rustup`:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-### Setup the Project
-
-Clone the repository and navigate into the project directory:
-
-```bash
-git clone https://github.com/taimurey/raydium-bundler.git
-cd raydium-bundler
-```
-
-## Cargo Commands
-
-To build the project:
-
-```bash
-cargo build
-```
-
-To run the project:
-
-```bash
-cargo run
-```
-
-To run tests:
-
-```bash
-cargo test
 ```
 
 ## Mode
